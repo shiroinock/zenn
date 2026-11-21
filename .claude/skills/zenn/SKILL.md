@@ -15,9 +15,9 @@ argument-hint: [action] [options]
 ### 記事の作成 (new, create, 作成, 新規)
 
 ```bash
-npx zenn new:article
+pnpm exec zenn new:article
 # オプション指定も可能
-npx zenn new:article --slug <slug> --title <title> --type <tech|idea> --emoji <emoji>
+pnpm exec zenn new:article --slug <slug> --title <title> --type <tech|idea> --emoji <emoji>
 ```
 
 - ユーザーがタイトルやトピックを指定した場合、記事ファイル作成後にフロントマターを編集して反映する
@@ -55,9 +55,9 @@ published_at: ""     # 公開日時指定（任意）"YYYY-MM-DD" or "YYYY-MM-DD
 ### プレビュー (preview, プレビュー)
 
 ```bash
-npx zenn preview
+pnpm exec zenn preview
 # ポート指定
-npx zenn preview --port 3000
+pnpm exec zenn preview --port 3000
 ```
 
 ローカルでプレビューサーバーを起動する。デフォルトは http://localhost:8000 。
@@ -65,14 +65,14 @@ npx zenn preview --port 3000
 ### 本の作成 (new:book, 本)
 
 ```bash
-npx zenn new:book
-npx zenn new:book --slug <slug>
+pnpm exec zenn new:book
+pnpm exec zenn new:book --slug <slug>
 ```
 
 ### CLIアップデート (update, アップデート)
 
 ```bash
-npm install zenn-cli@latest
+pnpm add zenn-cli@latest
 ```
 
 ## 注意事項
