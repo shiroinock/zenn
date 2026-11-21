@@ -12,5 +12,8 @@
   "type": "commonjs",
   "dependencies": {
     "zenn-cli": "^0.4.6"
+  },
+  "engines": {
+    "node": ">=24"
   }
 }
