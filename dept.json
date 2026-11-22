@@ -1,0 +1,35 @@
+{
+  "lockfile": "./pnpm-lock.yaml",
+  "format": "pnpm-lock.yaml",
+  "weights": {
+    "major": 30,
+    "minor": 3,
+    "patch": 1
+  },
+  "total": 0,
+  "lag": {
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  },
+  "packages": 1,
+  "outdated": 0,
+  "errors": 0,
+  "libyear": 0.0,
+  "rows": [
+    {
+      "name": "zenn-cli",
+      "package": "zenn-cli",
+      "kind": "prod",
+      "current": "0.5.15",
+      "latest": "0.5.15",
+      "lag": {
+        "major": 0,
+        "minor": 0,
+        "patch": 0
+      },
+      "score": 0,
+      "libyear": 0.0
+    }
+  ]
+}
